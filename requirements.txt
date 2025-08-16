@@ -1,0 +1,13 @@
+# Python version
+python==3.11.11  # For Google Colab, use 3.10.12 for Kaggle
+
+# PyTorch
+torch==2.6.0+cu124   # Google Colab
+# torch==2.5.1+cu121 # Uncomment for Kaggle
+
+# NumPy
+numpy==2.0.2         # Google Colab
+# numpy==1.26.4      # Uncomment for Kaggle
+
+# Optional: cuDNN is handled by PyTorch's CUDA installation, so not included in pip
+# CUDA version: match your PyTorch build (e.g., cu124 for torch 2.6.0+cu124)
