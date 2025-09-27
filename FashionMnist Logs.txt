@@ -1,0 +1,99 @@
+# functions tagged "up" have a slope of 0.625 at 0, and functions tagged "down" have a slope of 0.475
+
+Swish+up: 
+Epoch (selected per file) = [37, 40, 37, 37, 36]
+Training Loss (best epoch) = [0.2886, 0.3212, 0.2834, 0.2935, 0.2771]
+Test Loss (best epoch) = [0.2762, 0.3046, 0.273, 0.2817, 0.2642]
+Training Accuracy (best epoch) = [0.8922, 0.8796, 0.8947, 0.8899, 0.8954]
+Test Accuracy (best epoch) = [0.8992, 0.8881, 0.8988, 0.8978, 0.903]
+
+Swish:
+Epoch (selected per file) = [30, 40, 38, 39, 33]
+Training Loss (best epoch) = [0.2787, 0.2796, 0.3446, 0.2866, 0.2715]
+Test Loss (best epoch) = [0.2684, 0.2702, 0.327, 0.2725, 0.2615]
+Training Accuracy (best epoch) = [0.8961, 0.8967, 0.8697, 0.8929, 0.899]
+Test Accuracy (best epoch) = [0.9011, 0.9006, 0.8801, 0.8996, 0.9037]
+
+Swish+down:
+Epoch (selected per file) = [37, 38, 39, 38, 36]
+Training Loss (best epoch) = [0.2743, 0.2753, 0.2786, 0.3028, 0.2826]
+Test Loss (best epoch) = [0.2682, 0.2586, 0.2701, 0.2902, 0.2739]
+Training Accuracy (best epoch) = [0.8973, 0.8979, 0.8956, 0.8852, 0.8935]
+Test Accuracy (best epoch) = [0.9019, 0.9059, 0.9029, 0.8946, 0.8999]
+
+Mish+down:
+Epoch (selected per file) = [38, 32, 40, 34, 38]
+Training Loss (best epoch) = [0.2791, 0.2783, 0.2755, 0.2829, 0.2871]
+Test Loss (best epoch) = [0.2704, 0.2685, 0.2712, 0.2683, 0.2811]
+Training Accuracy (best epoch) = [0.8964, 0.8954, 0.896, 0.8932, 0.8923]
+Test Accuracy (best epoch) = [0.9006, 0.9006, 0.9011, 0.8993, 0.8954]
+
+Mish:
+Epoch (selected per file) = [38, 36, 37, 28, 28]
+Training Loss (best epoch) = [0.321, 0.2886, 0.2826, 0.2796, 0.2965]
+Test Loss (best epoch) = [0.3104, 0.2801, 0.2694, 0.2687, 0.279]
+Training Accuracy (best epoch) = [0.8796, 0.8921, 0.8954, 0.8943, 0.8895]
+Test Accuracy (best epoch) = [0.885, 0.8979, 0.9017, 0.9014, 0.8974]
+
+Mish+up:
+Epoch (selected per file) = [38, 38, 34, 30, 28]
+Training Loss (best epoch) = [0.283, 0.2706, 0.2767, 0.3322, 0.3044]
+Test Loss (best epoch) = [0.2663, 0.2565, 0.279, 0.3089, 0.2957]
+Training Accuracy (best epoch) = [0.895, 0.8991, 0.8964, 0.8746, 0.8855]
+Test Accuracy (best epoch) = [0.9005, 0.9073, 0.9002, 0.8841, 0.8909]
+
+ESwishup:
+Epoch (selected per file) = [38, 29, 39, 36, 39]
+Training Loss (best epoch) = [0.3304, 0.3187, 0.3449, 0.3445, 0.3212]
+Test Loss (best epoch) = [0.311, 0.305, 0.3151, 0.315, 0.3102]
+Training Accuracy (best epoch) = [0.8765, 0.8797, 0.8702, 0.8703, 0.8791]
+Test Accuracy (best epoch) = [0.8877, 0.887, 0.8849, 0.8869, 0.8834]
+
+ESwishdown:
+Epoch (selected per file) = [38, 35, 37, 33, 30]
+Training Loss (best epoch) = [0.2844, 0.2827, 0.2774, 0.2901, 0.2771]
+Test Loss (best epoch) = [0.2662, 0.2694, 0.2642, 0.2741, 0.2705]
+Training Accuracy (best epoch) = [0.8941, 0.8936, 0.8974, 0.8918, 0.8962]
+Test Accuracy (best epoch) = [0.9018, 0.9001, 0.904, 0.9012, 0.9024]
+
+PMishdown: 
+Epoch (selected per file) = [30, 29, 40, 38, 38]
+Training Loss (best epoch) = [0.2789, 0.2766, 0.2865, 0.28, 0.2736]
+Test Loss (best epoch) = [0.2699, 0.2664, 0.2819, 0.2659, 0.2607]
+Training Accuracy (best epoch) = [0.8957, 0.8967, 0.892, 0.8957, 0.8976]
+Test Accuracy (best epoch) = [0.9006, 0.902, 0.8978, 0.9027, 0.9039]
+
+PMishup:
+Epoch (selected per file) = [35, 32, 37, 35, 39]
+Training Loss (best epoch) = [0.2923, 0.4008, 0.2806, 0.2839, 0.2936]
+Test Loss (best epoch) = [0.279, 0.3695, 0.2732, 0.265, 0.283]
+Training Accuracy (best epoch) = [0.8909, 0.8484, 0.8953, 0.8939, 0.8896]
+Test Accuracy (best epoch) = [0.8981, 0.8632, 0.8981, 0.9034, 0.8948]
+
+ReLU:
+Epoch (selected per file) = [34, 39, 37, 39, 40]
+Training Loss (best epoch) = [0.3299, 0.3173, 0.312, 0.3452, 0.3197]
+Test Loss (best epoch) = [0.3125, 0.3084, 0.2997, 0.3282, 0.3163]
+Training Accuracy (best epoch) = [0.876, 0.8824, 0.8838, 0.8711, 0.8797]
+Test Accuracy (best epoch) = [0.8833, 0.8863, 0.8889, 0.8792, 0.8835]
+
+GeLU:
+Epoch (selected per file) = [39, 35, 30, 40, 35]
+Training Loss (best epoch) = [0.2971, 0.2774, 0.2714, 0.2895, 0.2899]
+Test Loss (best epoch) = [0.2787, 0.2665, 0.2618, 0.2742, 0.2756]
+Training Accuracy (best epoch) = [0.8901, 0.8959, 0.8985, 0.8904, 0.8918]
+Test Accuracy (best epoch) = [0.8975, 0.9005, 0.9035, 0.899, 0.8987]
+
+GeLU+down:
+Epoch (selected per file) = [40, 35, 39, 40, 33]
+Training Loss (best epoch) = [0.2808, 0.2718, 0.2737, 0.2739, 0.2688]
+Test Loss (best epoch) = [0.2696, 0.2629, 0.2592, 0.2644, 0.2573]
+Training Accuracy (best epoch) = [0.8946, 0.8988, 0.8971, 0.8962, 0.8992]
+Test Accuracy (best epoch) = [0.9005, 0.9058, 0.9048, 0.9041, 0.902]
+
+GeLU+up:
+Epoch (selected per file) = [32, 29, 40, 38, 31]
+Training Loss (best epoch) = [0.2784, 0.2736, 0.2809, 0.2937, 0.2787]
+Test Loss (best epoch) = [0.2668, 0.2596, 0.2663, 0.2782, 0.268]
+Training Accuracy (best epoch) = [0.896, 0.8974, 0.8948, 0.8902, 0.8954]
+Test Accuracy (best epoch) = [0.902, 0.9062, 0.8988, 0.8963, 0.9013]
